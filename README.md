@@ -10,7 +10,7 @@ The datasets I chose were pricing transparency datasets from two hospital system
 * Summary statistics for each of the dataset's numerical columns were gathered using ```.describe```.
 * From the summary statistics and specifically looking at the 'Gross Charge' column from SBU and the "gross charges' column from NYP, an insight can be made that on average, medical services at New York Presbyterian appear to be more expensive than those at Stony Brook.
 *  ```value_counts()```  was used to find the frequency counts for the 'Gross Charges' and 'Gross charge' columns for SBU's and NYP's data frames.
-*  ```.isnull().sum()``` code was used to check for missinh values. There was a significant amount of missing values within Stony Brook's dataset.
+*  ```.isnull().sum()``` code was used to check for missing values. There was a significant amount of missing values within Stony Brook's dataset.
 *  Each of the dataset columns was then cleaned.
 
 
